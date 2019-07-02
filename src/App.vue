@@ -18,20 +18,22 @@
     <v-content>
       <HelloWorld/>
     </v-content>
+      <rama></rama>
   </v-app>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+
+import rama from "./components/rama";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    rama
   },
   data () {
     return {
-      //
     }
   }
 }
